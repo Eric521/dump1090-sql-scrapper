@@ -2,7 +2,7 @@
 
 $settings = array();
 $settings['timezone'] = 'America/Los_Angeles';
-$settings['server_ip'] = '10.1.1.113';
+$settings['server_ip'] = '';
 $settings['server_port'] = '8080';
 
 $settings['mysql_user'] = 'user';
