@@ -1,0 +1,18 @@
+CREATE TABLE dump1090 (
+id INT(32) NOT NULL auto_increment,
+hex VARCHAR(50),
+squawk VARCHAR(50),
+flight VARCHAR(50),
+lat VARCHAR(50),
+`long` VARCHAR(50),
+validposition VARCHAR(50),
+altitude VARCHAR(50),
+vert_rate VARCHAR(50),
+track VARCHAR(50),
+validtrack VARCHAR(50),
+speed VARCHAR(50),
+messages VARCHAR(500),
+seen VARCHAR(50),
+ts VARCHAR(50),
+dts VARCHAR(50),
+primary KEY (id));
